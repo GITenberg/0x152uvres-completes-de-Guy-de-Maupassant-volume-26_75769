@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xml:base="http://www.gutenberg.org/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:pgterms="http://www.gutenberg.org/2009/pgterms/"
+  xmlns:dcam="http://purl.org/dc/dcam/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:cc="http://web.resource.org/cc/"
+>
+  <cc:Work rdf:about="">
+    <cc:license rdf:resource="https://creativecommons.org/publicdomain/zero/1.0/"/>
+    <rdfs:comment>Archives containing the RDF files for *all* our books can be downloaded at
+            https://www.gutenberg.org/wiki/Gutenberg:Feeds#The_Complete_Project_Gutenberg_Catalog</rdfs:comment>
+  </cc:Work>
+  <pgterms:ebook rdf:about="ebooks/75769">
+    <dcterms:publisher>Project Gutenberg</dcterms:publisher>
+    <dcterms:license rdf:resource="license"/>
+    <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2025-04-01</dcterms:issued>
+    <dcterms:rights>Public domain in the USA.</dcterms:rights>
+    <pgterms:downloads rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</pgterms:downloads>
+    <dcterms:creator>
+      <pgterms:agent rdf:about="2009/agents/306">
+        <pgterms:name>Maupassant, Guy de</pgterms:name>
+        <pgterms:birthdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1850</pgterms:birthdate>
+        <pgterms:deathdate rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1893</pgterms:deathdate>
+        <pgterms:alias>De Maupassant, Guy</pgterms:alias>
+        <pgterms:webpage rdf:resource="https://fr.wikipedia.org/wiki/Guy_de_Maupassant"/>
+        <pgterms:webpage rdf:resource="https://en.wikipedia.org/wiki/Guy_de_Maupassant"/>
+      </pgterms:agent>
+    </dcterms:creator>
+    <dcterms:title>Œuvres complètes de Guy de Maupassant - volume 26</dcterms:title>
+    <pgterms:marc260>  $aParis :$bLouis Conard, $c1908.</pgterms:marc260>
+    <pgterms:marc508>Claudine Corbasson and the Online Distributed Proofreading Team at https://www.pgdp.net (This file was produced from images generously made available by The Internet Archive/Canadian Libraries)</pgterms:marc508>
+    <pgterms:marc905>20130403045731demaupassa</pgterms:marc905>
+    <pgterms:marc906>1908</pgterms:marc906>
+    <pgterms:marc907>FR</pgterms:marc907>
+    <dcterms:language>
+      <rdf:Description rdf:nodeID="Nc3b9ad73cd0b495495caea28b4821d27">
+        <rdf:value rdf:datatype="http://purl.org/dc/terms/RFC4646">fr</rdf:value>
+      </rdf:Description>
+    </dcterms:language>
+    <dcterms:type>
+      <rdf:Description rdf:nodeID="N46e7e44ca6ca477b9dfa0602bc6c475e">
+        <dcam:memberOf rdf:resource="http://purl.org/dc/terms/DCMIType"/>
+        <rdf:value>Text</rdf:value>
+      </rdf:Description>
+    </dcterms:type>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/75769/75769-h/75769-h.htm">
+        <dcterms:isFormatOf rdf:resource="ebooks/75769"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">296124</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-01T09:15:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nd1eef4e91dea4b8f86f0013310f19bfb">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/html</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+    <dcterms:hasFormat>
+      <pgterms:file rdf:about="https://www.gutenberg.org/files/75769/75769-0.txt">
+        <dcterms:isFormatOf rdf:resource="ebooks/75769"/>
+        <dcterms:extent rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">256132</dcterms:extent>
+        <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-04-01T09:15:44</dcterms:modified>
+        <dcterms:format>
+          <rdf:Description rdf:nodeID="Nb1346843c8a1446db2fb504476857a96">
+            <dcam:memberOf rdf:resource="http://purl.org/dc/terms/IMT"/>
+            <rdf:value rdf:datatype="http://purl.org/dc/terms/IMT">text/plain; charset=us-ascii</rdf:value>
+          </rdf:Description>
+        </dcterms:format>
+      </pgterms:file>
+    </dcterms:hasFormat>
+  </pgterms:ebook>
+  <rdf:Description rdf:about="https://en.wikipedia.org/wiki/Guy_de_Maupassant">
+    <dcterms:description>en.wikipedia</dcterms:description>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://fr.wikipedia.org/wiki/Guy_de_Maupassant">
+    <dcterms:description>fr.wikipedia</dcterms:description>
+  </rdf:Description>
+</rdf:RDF>
